@@ -5,12 +5,8 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-p {
-  font-weight: normal;
-}
-
 body {
-    font-family: var(--default-font-family);
+  font-family: var(--default-font-family);
 }
 
 h1,
@@ -25,6 +21,16 @@ h6 {
 
 h1 {
   font-size: 96px;
+}
+
+h2 {
+  font-size: 62px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .hero {
@@ -54,4 +60,46 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 960px) {
+.project-description {
+  padding: 0;
+  text-align: center;
+}
+
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+
+  h2 {
+      font-size: 34px;
+  }
+
+.hero {
+  padding: 80px 20px;
+}
+
+.hero p {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+.footer {
+    display: none;
+  }
 }
