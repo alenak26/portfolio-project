@@ -76,10 +76,10 @@ p {
 }
 
 @media (max-width: 960px) {
-.project-description {
-  padding: 0;
-  text-align: center;
-}
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 
   h1 {
     font-size: 44px;
@@ -87,19 +87,19 @@ p {
   }
 
   h2 {
-      font-size: 34px;
+    font-size: 34px;
   }
 
-.hero {
-  padding: 80px 20px;
-}
+  .hero {
+    padding: 80px 20px;
+  }
 
-.hero p {
+  .hero p {
     font-size: 26px;
     font-weight: normal;
-}
+  }
 
-.footer {
+  .footer {
     display: none;
   }
 }
