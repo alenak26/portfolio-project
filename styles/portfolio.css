@@ -104,6 +104,17 @@ margin: 30px;
   border: 1px solid var(--branding-color);
 }
 
+.project-name {
+  text-decoration: none;
+  color: var(--branding-color);
+}
+
+.project-name:hover {
+  text-decoration: underline;
+  color: #4c46ba);
+}
+
+
 .project-description {
   padding: 120px 60px;
 }
