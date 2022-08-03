@@ -27,6 +27,10 @@ h2 {
   font-size: 62px;
 }
 
+h4 {
+    font-size: 48px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -104,6 +108,41 @@ margin: 30px;
   padding: 120px 60px;
 }
 
+footer .email-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+footer .email-link:hover {
+    color: var(--branding-color);
+}
+
+footer .social-links a {
+    margin: 0 20px;
+    color: var(--branding-color);
+    background: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+}
+
+footer .social-links a:hover {
+    color: white;
+    background: var(--branding-color);
+    transition: all 150ms ease-in-out;
+}
+
+footer .contact-box {
+    background: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+
+footer .contact-box p {
+    margin: 0;
+}
+
+
 @media (max-width: 960px) {
   .project-description {
     padding: 0;
@@ -133,9 +172,13 @@ margin: 30px;
     padding: 0;
   }
 
-  .footer {
-    display: none;
-  }
+  footer .contact-box {
+    padding: 30px;
+}
+
+footer .email-link {
+    font-size: 20px;
+}
 }
 
 .profile-pic {
